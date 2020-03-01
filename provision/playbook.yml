@@ -1,0 +1,6 @@
+---
+# provisioning goes here
+- hosts: all
+  tasks:
+    - debug:
+        msg: "Provisioning goes here"
